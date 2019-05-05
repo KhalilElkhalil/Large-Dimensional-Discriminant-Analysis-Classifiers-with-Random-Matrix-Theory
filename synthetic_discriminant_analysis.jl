@@ -8,7 +8,7 @@
 
 # import useful functions
 # Make sure that you include the right path of module.jl
-@everywhere include("/home/elkhalk/Dropbox/BLUE_1/Big_Data_Regression/Classification/Julia codes/module.jl");
+@everywhere include("module.jl");
 
 # Starting the main code
 # General parameters
@@ -227,4 +227,4 @@ qda_plugin_error = Error_array[2:end, 14] ;
 using MAT
 
 array = Error_array[2:end, :];
-matwrite("/home/elkhalk/Dropbox/BLUE_1/Big_Data_Regression/Classification/Julia\ codes/results.mat", Dict("array" => array));
+matwrite("results.mat", Dict("array" => array));
