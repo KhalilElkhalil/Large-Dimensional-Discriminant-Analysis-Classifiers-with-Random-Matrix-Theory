@@ -8,7 +8,7 @@
 
 # import useful functions
 # Make sure that you include the right path of module.jl
-@everywhere include("/home/elkhalk/Dropbox/BLUE_1/Big_Data_Regression/Classification/Julia codes/module.jl") ;
+@everywhere include("module.jl") ;
 # Starting the main code
 
 #tic();
@@ -221,6 +221,6 @@ Error_array = tuple_to_array(Error_array, 12) ;
 # Pkg.add("MAT"); # if you don't alrady have the package
 using MAT
 array = Error_array;
-matwrite("/home/elkhalk/Dropbox/BLUE_1/Big_Data_Regression/Classification/Julia\ codes/results.mat", Dict(
+matwrite("results.mat", Dict(
                      "array" => array
              ));
