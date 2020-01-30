@@ -3,7 +3,7 @@ This Julia code is useful to reproduce results of the paper "A Large Dimensional
 
 ## To run the code properly, please make sure that you install Julia 0.6.
 
-# Copyright (c) Khalil Elkhalil, Abla Kammoun, Romain Couillet, Tareq Y. Al-NAffouri, and Mohamed-Slim Alouini.
+## Copyright (c) Khalil Elkhalil, Abla Kammoun, Romain Couillet, Tareq Y. Al-NAffouri, and Mohamed-Slim Alouini.
 
-# Contact Persons: Khalil Elkhalil
-# E-mail: khalil.elkhalil@kaust.edu.sa
+## Contact Persons: Khalil Elkhalil
+## E-mail: khalil.elkhalil@kaust.edu.sa
